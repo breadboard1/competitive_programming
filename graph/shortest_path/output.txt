@@ -1,0 +1,5 @@
+distance of 1 : 0
+distance of 2 : 10
+distance of 3 : 20
+distance of 4 : 60
+distance of 5 : 40
