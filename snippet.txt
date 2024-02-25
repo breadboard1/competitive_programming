@@ -1,0 +1,137 @@
+{
+	"1": {
+		"prefix": "node",
+		"body": [
+			"class Node",
+			"{",
+			"    public:",
+			"        int val;",
+			"        Node* next;",
+			"        Node(int val)",
+			"        {",
+			"            this->val = val;",
+			"            this->next = NULL;",
+			"        }",
+			"};"
+		],
+		"description": ""
+		},
+	
+	
+	"2": {
+		"prefix": "cpp",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"typedef long long ll;",
+			"const int MAX = 2e9 + 23;",
+			"ll inf = 1e18 + 23;",
+			"const int MOD = 1e9 + 7;",
+			"#define rep(i, n) for(int i = 1; i <= n; i++)",
+			"#define For(i, n) for(int i = 0; i < n; i++)",
+			"",
+			"int main()",
+			"{",
+			"    ios::sync_with_stdio(false);",
+			"    cin.tie(nullptr);",
+			"",
+			"    $0",
+			
+			"    return 0;",
+			"}"
+		],
+		"description": ""
+		},
+	
+	
+		"3": {
+		"prefix": "bnode",
+		"body": [
+			"class Node",
+			"{",
+			"    public:",
+			"        int val;",
+			"        Node* left;",
+			"        Node* right;",
+			"        Node(int val)",
+			"        {",
+			"            this->val = val;",
+			"            this->left = NULL;",
+			"            this->right = NULL;",
+			"        }",
+			"};"
+		],
+		"description": ""
+		},
+
+
+
+	"4": {
+		"prefix": "cf",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"typedef long long ll;",
+			"typedef double dd;",
+			"typedef pair<ll, ll> pii;",
+			"const int MAX = 2e9 + 23;",
+			"const int N = 2e5 + 23;",
+			"ll inf = 1e18 + 23;",
+			"const int mod = 1e9 + 7;",
+			"#define rep(i, n) for(int i = 1; i <= n; i++)",
+			"#define For(i, n) for(int i = 0; i < n; i++)",
+			"//ll b_pow(ll b, ll p);",
+			"//vector<bool> is_prime(N, true);",
+			"",
+			"void solve()",
+			"{",
+			"    $0",
+			"}",
+			"",
+			"int main()",
+			"{",
+			"    ios::sync_with_stdio(false);",
+			"    cin.tie(nullptr);",
+			"    ",
+			"    ll t = 1;",
+			"    cin >> t;",
+			"    while(t--) solve();",
+			"    return 0;",
+			"}",
+			"",
+			"//ll b_pow(ll b, ll p)",
+			"//{",
+			"//    ll r = 1;",
+			"//    while(p)",
+			"//    {",
+			"//        if(p & 1) ",
+			"//        {",
+			"//            r = r * b;",
+			"//            p--;",
+			"//        }",
+			"//        else ",
+			"//        {",
+			"//            p = p / 2;",
+			"//            b = b * b;",
+			"//        }",
+			"//    }",
+			"//    return r;",
+			"//}",
+			"",
+			"// void sieve()",
+			"// {",
+			"//     is_prime[0] = is_prime[1] = false;",
+			"//     for(ll i = 2; i <= N; i++) ",
+			"//     {",
+			"//         if(is_prime[i]) ",
+			"//         {",
+			"//             for(ll j = i * i; j <= N; j += i) is_prime[j] = false;",
+			"//         }",
+			"//     }",
+			"// }"
+		],
+		"description": ""
+		}
+	}
