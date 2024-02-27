@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int binary_exponentiation(int base, int power)
+ll bin_pow(ll base, ll power)
 {
-    int result = 1;
+    ll result = 1;
     while(power)
     {
         if(power & 1) 
@@ -13,7 +13,7 @@ int binary_exponentiation(int base, int power)
         }
         else 
         {
-            power = power / 2;
+            power >>= 1;
             base = base * base;
         }
     }
