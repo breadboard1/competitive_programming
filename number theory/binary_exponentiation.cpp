@@ -24,6 +24,6 @@ int main()
 {
     int base, power;
     cin >> base >> power;
-    cout << binary_exponentiation(base, power);
+    cout << bin_pow(base, power);
     return 0;
 }
