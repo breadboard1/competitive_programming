@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+typedef pair<int, int> pii;
+#define nl "\n"
+const int MAX = 2e9 + 23;
+const int N = 2e5 + 23;
+ll inf = 1e18 + 23;
+const int mod = 1e9 + 7;
+//clockwise  U  R  D  L
+int dx[] = {-1, 0, 1, 0, -1, 1, 1, -1};
+int dy[] = {0, 1, 0, -1, 1, 1, -1, -1};
+
+void solve(){
+    $1
+}
+
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t = 1;
+    cin >> t;
+    for(int i = 1; i <= t; i++){
+        // cout << "Case " << i << ": ";
+        solve();
+    }
+    return 0;
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

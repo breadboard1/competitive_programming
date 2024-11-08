@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+class DisjointSet{
+public:
+    vector<int> parent, size;
+    DisjointSet(int n){
+        parent.resize(n+1, 0);
+        size.resize(n+1);
+        for(int i = 0; i <= n; i++){
+            parent[i] = i;
+            size[i] = 1;
+        }   
+    }
+
+    int find(int v){
+        if(parent[v] == v) return v;
+        return parent[v] = find(parent[v]);
+    }
+
+    void union_dsu(int a, int b){
+        int parent_a = find(a);
+        int parent_b = find(b);
+        if(parent_a != parent_b){
+            if(size[parent_a] < size[parent_b]){
+                swap(parent_a, parent_b);
+            }
+            parent[parent_b] = parent_a;
+            size[parent_a] += size[parent_b]; 
+        }
+    }
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dsu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
